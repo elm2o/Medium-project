@@ -1,0 +1,81 @@
+.list {
+    max-width: 720px;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    padding-right: 360px;
+    padding-top: 4em;
+    .content {
+        margin-bottom: 4em;
+        .author {
+            margin-top: 5px;
+            display: flex;
+            .pic {
+                img {
+                    width: 25px;
+                    margin-left: -5px;
+                }
+            }
+            .name {
+                font-size: 13px;
+                font-weight: bold;
+                margin-top: 5px;
+                color: rgb(75, 75, 75);
+            }
+        }
+    }
+    .list_title {
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .list_text {
+        font-size: 16px;
+        color: rgb(175, 175, 175);
+        margin-bottom: 10px;
+    }
+    .meta {
+        display: flex;
+        .date {
+            font-size: 13px;
+            color: rgb(75, 75, 75);
+        }
+        .separator {
+            img{
+            width: 7px;
+            padding-bottom: .15em;
+            padding-left: .5em;
+            padding-right: .5em;
+            }
+        }
+        .time_to_read {
+            font-size: 13px;
+            color: rgb(75, 75, 75);
+        }
+        .star {
+            img {
+                width: 10px;
+                padding-bottom: .05em;
+                padding-left: .5em;
+            }  
+        }
+        .save {
+            display: flex;
+            padding-left: 19.5em;
+            img {
+                display: flex;
+                width: 20px;
+            }
+        }
+    }
+    .list_picture {
+        display: flex;
+        img {
+            padding-top: 2em;
+            width: 200px;
+            height: 133px;
+            padding-left: 15px;
+        }
+    }
+}

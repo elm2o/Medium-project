@@ -1,0 +1,100 @@
+.home_grid {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgb(180, 180, 180);
+
+    .home_grid_holder {
+        width: 100%;
+        max-width: 1080px;
+
+        .home_grid_header {
+            display: flex;
+            align-items: center;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            .icon {
+                img {
+                width: 20px;
+                margin-right: 20px;
+                margin-left: 3px;
+                }
+            }
+            .label {
+                font-size: 12.5px;
+                font-weight: bold;
+                color: rgb(41, 41, 41);
+            }
+        }
+        .home_grid_items {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 1rem;
+        }
+    }
+}
+
+.home_grid_item {
+    display: flex;
+    .big_num {
+        margin-right: 20px;
+        color: rgba(230, 230, 230, 1);
+        font-weight: bold;
+        line-height: 36px;
+        font-size: 30px;
+    }
+    .content {
+        margin-bottom: 2em;
+
+        .author {
+            margin-top: 5px;
+            display: flex;
+            .pic {
+                img {
+                    width: 25px;
+                }
+            }
+            .name {
+                font-size: 13px;
+                font-weight: bold;
+                margin-top: 5px;
+                color: rgb(75, 75, 75);
+                margin-left: 5px;
+            }
+        }
+        .title {
+            font-size: 20px;
+            line-height: 22px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+        .meta {
+            display: flex;
+
+            .date {
+                margin-left: 5px;
+                font-size: 13px;
+                color: rgb(75, 75, 75);
+            }
+            .separator {
+                img{
+                width: 7px;
+                padding-bottom: .15em;
+                padding-left: .5em;
+                padding-right: .5em;
+                }
+            }
+            .time_to_read {
+                font-size: 13px;
+                color: rgb(75, 75, 75);
+            }
+            .star {
+                img {
+                    width: 10px;
+                    padding-bottom: .05em;
+                    padding-left: .5em;
+                }  
+            }
+        }
+    }
+}
