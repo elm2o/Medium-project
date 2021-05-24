@@ -32,7 +32,7 @@ const renderMenu = () => {
     }
     console.log(divMenuString);
     divMenu.innerHTML = divMenuString;
-};
+}
 
 const initScrollColorEvent = () => {
     const header = document.querySelector('.header');
@@ -43,7 +43,7 @@ const initScrollColorEvent = () => {
             header.classList.remove("header_change");
         }
     });
-};
+}
 
 const initHeader = () => {
     const header = document.querySelector(".header");
@@ -63,7 +63,7 @@ const initHeader = () => {
     header.addEventListener("mouseleave", () => {
         header.dataset.hovered = false;
     });
-};
+}
 
 const counters = () => {
     const homeGridItems = document.querySelectorAll('.home_grid_item');
@@ -74,7 +74,7 @@ const counters = () => {
             item.dataset.clicked = counter;
         });
     });
-};
+}
 
 const buttonAds = document.querySelectorAll('.modalAd');
 buttonAds.forEach(buttonAd => {
